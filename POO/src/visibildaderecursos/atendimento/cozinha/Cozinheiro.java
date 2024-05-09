@@ -1,6 +1,6 @@
-package lanchonete.atendimento.cozinha;
+package visibildaderecursos.atendimento.cozinha;
 
-import lanchonete.atendimento.Atendente;
+import visibildaderecursos.atendimento.Atendente;
 
 public class Cozinheiro {
     

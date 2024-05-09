@@ -1,4 +1,4 @@
-package lanchonete.area.cliente;
+package visibildaderecursos.area.cliente;
 
 public class Clientes {
     

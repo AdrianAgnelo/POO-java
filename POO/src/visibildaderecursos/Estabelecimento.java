@@ -1,9 +1,9 @@
-package lanchonete;
+package visibildaderecursos;
 
-import lanchonete.area.cliente.Clientes;
-import lanchonete.atendimento.Atendente;
-import lanchonete.atendimento.cozinha.Almoxarifado;
-import lanchonete.atendimento.cozinha.Cozinheiro;
+import visibildaderecursos.area.cliente.Clientes;
+import visibildaderecursos.atendimento.Atendente;
+import visibildaderecursos.atendimento.cozinha.Almoxarifado;
+import visibildaderecursos.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
     public static void main(String[] args) {

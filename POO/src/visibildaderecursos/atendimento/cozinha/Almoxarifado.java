@@ -1,4 +1,4 @@
-package lanchonete.atendimento.cozinha;
+package visibildaderecursos.atendimento.cozinha;
 
 public class Almoxarifado {
     

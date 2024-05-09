@@ -1,4 +1,4 @@
-package lanchonete.atendimento;
+package visibildaderecursos.atendimento;
 
 public class Atendente {
 
