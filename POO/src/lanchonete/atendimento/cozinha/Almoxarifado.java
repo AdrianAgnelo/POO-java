@@ -1,20 +1,22 @@
-package lanchonete;
+package lanchonete.atendimento.cozinha;
 
 public class Almoxarifado {
     
-    public void controlarEntrada () {
+    private void controlarEntrada () {
         System.out.println("Controlando entrada");
+        controlarEntrada();
     }
     
-    public void controlarSaida () {
+    private void controlarSaida () {
         System.out.println("Controlando saida");
+        controlarSaida();
     }
 
-    public void entregarIngredientes () {
+    void entregarIngredientes () {
         System.out.println("Entregando ingredientes");
     }
 
-    public void trocarGas () {
+    void trocarGas () {
         System.out.println("Almoxarife trocando gás");
     }
 

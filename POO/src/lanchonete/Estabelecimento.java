@@ -1,14 +1,19 @@
 package lanchonete;
 
+import lanchonete.area.cliente.Clientes;
+import lanchonete.atendimento.Atendente;
+import lanchonete.atendimento.cozinha.Almoxarifado;
+import lanchonete.atendimento.cozinha.Cozinheiro;
+
 public class Estabelecimento {
     public static void main(String[] args) {
         Cozinheiro cozinheiro = new Cozinheiro();
         //ações que não precisam estarem disponiveis
-        cozinheiro.lavarIngredientesVitamina();
-        cozinheiro.baterVitamina();
-        cozinheiro.selecionarIngredientesVitamina();
-        cozinheiro.prepararLanche();
-        cozinheiro.prepararVitamina();
+        //cozinheiro.lavarIngredientesVitamina();
+        //cozinheiro.baterVitamina();
+        //cozinheiro.selecionarIngredientesVitamina();
+        //cozinheiro.prepararLanche();
+        //cozinheiro.prepararVitamina();
 
         //ações que o estabelecimento precisa ter ciência
         cozinheiro.adicionarSucoNoBalcao();
@@ -17,18 +22,18 @@ public class Estabelecimento {
 
         Almoxarifado almoxarifado = new Almoxarifado();
         //ações que não precisam estarem disponiveis
-        almoxarifado.controlarEntrada();
-        almoxarifado.controlarSaida();
+        //almoxarifado.controlarEntrada();
+        //almoxarifado.controlarSaida();
         // ações que somente o package cozinha precisa conhecer(default)
-        almoxarifado.entregarIngredientes();
-        almoxarifado.trocarGas();
+        //almoxarifado.entregarIngredientes();
+       // almoxarifado.trocarGas();
 
         Atendente atendente = new Atendente();
-       atendente.pegarLancheCozinha();
+       //atendente.pegarLancheCozinha();
        atendente.receberPagamento();
        atendente.servirMesa();
        //ação que só o pacote cozinha precisa saber (default)
-       atendente.trocarGas();
+      // atendente.trocarGas();
 
        Clientes clientes = new Clientes();
        clientes.escolherLanche();
@@ -39,10 +44,10 @@ public class Estabelecimento {
        clientes.pegarPedidoBalcao();
 
        //esta ação é muito sigilosa (private)
-       clientes.olharSaldo();
+       //clientes.olharSaldo();
 
        //esta ação é muito sigilosa (private)
-       cozinheiro.pedirParaTrocarGas(atendente);
-       cozinheiro.pedirParaTrocarGas(almoxarifado);
+       //cozinheiro.pedirParaTrocarGas(atendente);
+       //cozinheiro.pedirParaTrocarGas(almoxarifado);
     }
 }
