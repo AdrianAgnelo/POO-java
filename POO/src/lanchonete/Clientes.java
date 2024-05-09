@@ -18,7 +18,7 @@ public class Clientes {
         System.out.println("Olhando saldo");
     }
 
-    public void pegarPedido () {
+    public void pegarPedidoBalcao () {
         System.out.println("Pegando pedido");
     }
 

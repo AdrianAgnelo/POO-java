@@ -48,7 +48,7 @@ public class Cozinheiro {
         System.out.println("Fritando");
     }
 
-    public void pedirParaTrocarGas (Atendendente meuAmigo) {
+    public void pedirParaTrocarGas (Atendente meuAmigo) {
         meuAmigo.trocarGas();
     }
 

@@ -1,6 +1,6 @@
 package lanchonete;
 
-public class Atendendente {
+public class Atendente {
 
     public void atenderMesa () {
         System.out.println("Atendendo mesa");
