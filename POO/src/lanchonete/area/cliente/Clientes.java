@@ -11,6 +11,7 @@ public class Clientes {
     }
 
     public void pagarConta () {
+        olharSaldo();
         System.out.println("Pagando");
     }
 
