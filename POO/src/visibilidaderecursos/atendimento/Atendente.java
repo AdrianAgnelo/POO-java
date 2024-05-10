@@ -1,4 +1,4 @@
-package visibildaderecursos.atendimento;
+package visibilidaderecursos.atendimento;
 
 public class Atendente {
 

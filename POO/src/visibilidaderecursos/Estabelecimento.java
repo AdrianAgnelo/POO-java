@@ -1,9 +1,9 @@
-package visibildaderecursos;
+package visibilidaderecursos;
 
-import visibildaderecursos.area.cliente.Clientes;
-import visibildaderecursos.atendimento.Atendente;
-import visibildaderecursos.atendimento.cozinha.Almoxarifado;
-import visibildaderecursos.atendimento.cozinha.Cozinheiro;
+import visibilidaderecursos.area.cliente.Clientes;
+import visibilidaderecursos.atendimento.Atendente;
+import visibilidaderecursos.atendimento.cozinha.Almoxarifado;
+import visibilidaderecursos.atendimento.cozinha.Cozinheiro;
 
 public class Estabelecimento {
     public static void main(String[] args) {

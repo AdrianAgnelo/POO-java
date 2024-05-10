@@ -1,4 +1,4 @@
-package visibildaderecursos.atendimento.cozinha;
+package visibilidaderecursos.atendimento.cozinha;
 
 public class Almoxarifado {
     

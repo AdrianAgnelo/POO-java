@@ -1,4 +1,4 @@
-package visibildaderecursos.area.cliente;
+package visibilidaderecursos.area.cliente;
 
 public class Clientes {
     

@@ -1,6 +1,6 @@
-package visibildaderecursos.atendimento.cozinha;
+package visibilidaderecursos.atendimento.cozinha;
 
-import visibildaderecursos.atendimento.Atendente;
+import visibilidaderecursos.atendimento.Atendente;
 
 public class Cozinheiro {
     
